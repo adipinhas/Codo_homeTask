@@ -1,0 +1,76 @@
+
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+}
+
+body{
+  background-image: url('./imgs/BG.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  
+}
+
+
+
+.homepage-text{
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%); 
+  color: rgb(31, 24, 62);
+  
+}
+
+.login-comp{
+  background-color: rgba(250, 235, 215, 0.166);
+  border-radius: 10px;
+  padding: 2vw;
+  height: 50vh;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.user-login{
+  width: 40%;
+  height: fit-content;
+  background-color: rgba(245, 245, 220, 0.659);
+  margin: 3px;
+  padding: 20px;
+  border-radius: 4px;
+  font-weight: bold;
+}
+.user-login:hover{
+  background-color: rgb(245, 245, 220);
+  cursor:context-menu;
+  
+
+
+}
+
+.change-user-button {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 10px 20px;
+  border-radius: 3px;
+  font-weight: bold;
+  background:linear-gradient(179.95deg, rgba(255, 255, 255, 0.8) 12.97%, rgba(212, 208, 230, 0.8) 88.94%);
+  cursor: pointer;
+  
+}
+
+.change-user-button:hover{
+  background:linear-gradient(179.95deg, rgba(255, 255, 255, 1) 12.97%, rgba(212, 208, 230, 1) 88.94%);
+
+}
+
